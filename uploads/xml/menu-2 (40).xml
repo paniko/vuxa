@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuconfiguration>
+	<menuoverview name="menu test v.2">
+		<menu id="1">
+			<title>Main menu xx</title>
+			<level>1</level>
+			<order>1</order>
+			<items>
+				<item>
+					<label>messages</label>
+					<key>1</key>
+					<order>1</order>
+					<link>2</link>
+					<cos>
+						<active>1</active>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>greetings</label>
+					<key>2</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>voicemail settings and features</label>
+					<key>3</key>
+					<order>3</order>
+					<link></link>
+					<cos>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>help</label>
+					<key>0</key>
+					<order>4</order>
+					<link></link>
+				</item>
+			</items>
+		</menu>
+		<menu id="2">
+			<title>Messages</title>
+			<level>2</level>
+			<order>1</order>
+			<items>
+				<item>
+					<label>call return</label>
+					<key>#</key>
+					<order>1</order>
+					<link>2</link>
+					<cos>
+						<active>1</active>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>replay</label>
+					<key>1</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>delete</label>
+					<key>2</key>
+					<order>3</order>
+					<link></link>
+					<cos>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>save/fax print</label>
+					<key>3</key>
+					<order>4</order>
+					<link>31</link>
+				</item>
+				<item>
+					<label>skip</label>
+					<key>4</key>
+					<order>5</order>
+					<link></link>
+				</item>			
+				<item>
+					<label>caller's number</label>
+					<key>5</key>
+					<order>6</order>
+					<link></link>
+				</item>	
+				<item>
+					<label>rewind (implicit)</label>
+					<key>7</key>
+					<order>7</order>
+					<link></link>
+				</item>
+				<item>
+					<label>pause/resume</label>
+					<key>8</key>
+					<order>8</order>
+					<link></link>
+				</item>
+				<item>
+					<label>fast forward</label>
+					<key>9</key>
+					<order>9</order>
+					<link></link>
+				</item>				
+				<item>
+					<label>help</label>
+					<key>0</key>
+					<order>10</order>
+					<link></link>
+				</item>				
+			</items>
+		</menu>
+		<menu id="3">
+			<title>Greetings</title>
+			<level>2</level>
+			<order>2</order>
+			<items>
+				<item>
+					<label>personal greetings</label>
+					<key>1</key>
+					<order>1</order>
+					<link>2</link>
+					<cos>
+						<active>1</active>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>name greetings</label>
+					<key>2</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>greetings help</label>
+					<key>3</key>
+					<order>3</order>
+					<link></link>
+					<cos>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>main menu</label>
+					<key>0</key>
+					<order>4</order>
+					<link>1</link>
+				</item>
+			</items>
+		</menu>		
+		<menu id="31">
+			<title>Fax print</title>
+			<level>3</level>
+			<order>1</order>
+			<items>
+				<item>
+					<label>print to preferred fax number</label>
+					<key>1</key>
+					<order>1</order>
+					<link></link>
+				</item>
+				<item>
+					<label>print from current fax</label>
+					<key>2</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>print to different number</label>
+					<key>3</key>
+					<order>3</order>
+					<link></link>
+				</item>
+			</items>
+		</menu>
+	</menuoverview>
+</menuconfiguration>

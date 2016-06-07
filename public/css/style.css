@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 100;
+	src: local('OpenSans CondLight'), local('OpenSans-CondLight'),
+		url('../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Oswald-Light'),local('Oswald Light'),
+		url('../fonts/Oswald/Oswald-Light.ttf') format('truetype');
+}
+body{
+	font-family: 'OpenSans',Helvetica,Arial;
+}
+h1,h3,caption{
+	font-family:'Oswald';
+}
+.titleHeader{
+	height:48px;
+}
+#formExport{
+	margin-bottom:0!important;
+}
+.boxmenu {
+	border-radius: 0.5em;
+	cursor: pointer;
+	padding: 4px;
+	z-index:40;
+	box-shadow: 2px 2px 19px #aaa;
+	-o-box-shadow: 0px 0px 2px #aaa;
+	-webkit-box-shadow: 0px 0px 2px #aaa;
+	-moz-box-shadow: 0px 0px 2px #aaa;
+	width:160px;
+	margin:12px 4%;
+	display:inline-table;
+	background-color:#FFF;
+/* 	position:absolute; */
+}
+/* .boxmenu table{ */
+/* 	width:100%; */
+/* } */
+.boxmenu table th {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.boxmenu table td {
+	font-size: 12px;
+}
+
+.separate {
+	height: 120px !important;
+}
+
+.view {
+	/* 	display:none; */
+	
+}
+th.command{
+	width:60px!important;
+}
+.centering{
+	float:none;
+	margin:0 auto;
+	text-align:center;
+}
+caption{
+	background-color: #0088cc;
+	color:#FFF;
+	border-radius: 6px 6px 0 0;
+}
+.ep {
+	float:right;
+	width:1em;
+	height:1em;
+	background-color:#994466;
+	cursor:pointer;
+}
+path, ._jsPlumb_endpoint { cursor:pointer; }
+
+/* z index stuff. windows are at z-index 24. */
+
+._jsPlumb_connector { z-index:1001;opacity:0.6; }
+._jsPlumb_endpoint { z-index:19; }
+._jsPlumb_overlay { z-index:20; }
+
+._jsPlumb_connector._jsPlumb_hover {
+    z-index:21 !important;
+    opacity:1;
+}
+
+._jsPlumb_endpoint._jsPlumb_hover {
+    z-index:22 !important;
+}
+
+._jsPlumb_overlay._jsPlumb_hover {
+    z-index:23 !important;
+}
+.dragHover { border:1px dotted red; }
+
+path { cursor:pointer; }
+#searchForm,#formExportPDF{
+	margin:0!important;
+}
+.row-fluid2{
+	position:relative;
+}
+#toolbar{
+	margin-bottom:25px;
+}
+.highlight{
+/* 	font-weight: bold; */
+/* 	color:#08C; */
+}
+.nohighlight{
+/* 	background-color:#efefef; */
+	color:#DDD;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuconfiguration>
+	<menuoverview name="menu test v.1">
+		<menu id="1">
+			<title>Main menu</title>
+			<level>1</level>
+			<order>1</order>
+			<items>
+				<item>
+					<label>messages</label>
+					<key>1</key>
+					<order>1</order>
+					<link>2</link>
+					<cos>
+						<active>1</active>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>greetings</label>
+					<key>2</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>voicemail settings and features</label>
+					<key>3</key>
+					<order>3</order>
+					<link></link>
+					<cos>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>help</label>
+					<key>0</key>
+					<order>4</order>
+					<link></link>
+				</item>
+			</items>
+		</menu>
+		<menu id="2">
+			<title>Secondary menu</title>
+			<level>2</level>
+			<order>1</order>
+			<items>
+				<item>
+					<label>messages</label>
+					<key>1</key>
+					<order>1</order>
+					<link>2</link>
+					<cos>
+						<active>1</active>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>greetings</label>
+					<key>2</key>
+					<order>2</order>
+					<link></link>
+				</item>
+				<item>
+					<label>voicemail settings and features</label>
+					<key>3</key>
+					<order>3</order>
+					<link></link>
+					<cos>
+						<active>2</active>
+						<active>4</active>
+					</cos>
+				</item>
+				<item>
+					<label>help</label>
+					<key>0</key>
+					<order>4</order>
+					<link></link>
+				</item>
+			</items>
+		</menu>
+	</menuoverview>
+</menuconfiguration>
